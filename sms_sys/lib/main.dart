@@ -155,7 +155,7 @@ class _CodeAutoFillTestPageState extends State<CodeAutoFillTestPage> with CodeAu
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Padding(
+          Padding( 
             padding: const EdgeInsets.fromLTRB(32, 32, 32, 0),
             child: Text(
               "This is the current app signature: $appSignature",
